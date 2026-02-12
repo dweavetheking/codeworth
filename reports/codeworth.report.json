@@ -1,0 +1,802 @@
+{
+  "meta": {
+    "scannedPath": "/Users/davidweaver/codeworth",
+    "timestamp": "2026-02-12T02:09:57.070Z",
+    "repo": {
+      "name": "codeworth",
+      "hasGit": false
+    }
+  },
+  "files": [
+    {
+      "path": ".eslintrc.cjs",
+      "size": 391,
+      "language": "Other",
+      "loc": {
+        "code": 14,
+        "comment": 0,
+        "blank": 1
+      },
+      "complexity": 20.28
+    },
+    {
+      "path": ".prettierrc",
+      "size": 90,
+      "language": "Other",
+      "loc": {
+        "code": 6,
+        "comment": 0,
+        "blank": 1
+      },
+      "complexity": 5.12
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "size": 385,
+      "language": "Markdown",
+      "loc": {
+        "code": 13,
+        "comment": 0,
+        "blank": 8
+      },
+      "complexity": 3.26
+    },
+    {
+      "path": "LICENSE",
+      "size": 1079,
+      "language": "Other",
+      "loc": {
+        "code": 17,
+        "comment": 0,
+        "blank": 5
+      },
+      "complexity": 1.84
+    },
+    {
+      "path": "README.md",
+      "size": 4138,
+      "language": "Markdown",
+      "loc": {
+        "code": 111,
+        "comment": 0,
+        "blank": 47
+      },
+      "complexity": 39.22
+    },
+    {
+      "path": "package.json",
+      "size": 678,
+      "language": "JSON",
+      "loc": {
+        "code": 30,
+        "comment": 0,
+        "blank": 0
+      },
+      "complexity": 10.6
+    },
+    {
+      "path": "tsconfig.json",
+      "size": 379,
+      "language": "JSON",
+      "loc": {
+        "code": 21,
+        "comment": 0,
+        "blank": 0
+      },
+      "complexity": 10.42
+    },
+    {
+      "path": "vitest.config.ts",
+      "size": 152,
+      "language": "TypeScript",
+      "loc": {
+        "code": 7,
+        "comment": 0,
+        "blank": 2
+      },
+      "complexity": 20.14
+    },
+    {
+      "path": "test/badgeGenerator.test.ts",
+      "size": 2179,
+      "language": "TypeScript",
+      "loc": {
+        "code": 53,
+        "comment": 0,
+        "blank": 8
+      },
+      "complexity": 0
+    },
+    {
+      "path": "test/scan.test.js",
+      "size": 3583,
+      "language": "JavaScript",
+      "loc": {
+        "code": 60,
+        "comment": 4,
+        "blank": 1
+      },
+      "complexity": 0
+    },
+    {
+      "path": "test/scan.test.ts",
+      "size": 2785,
+      "language": "TypeScript",
+      "loc": {
+        "code": 55,
+        "comment": 4,
+        "blank": 10
+      },
+      "complexity": 0
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/bug_report.md",
+      "size": 637,
+      "language": "Markdown",
+      "loc": {
+        "code": 24,
+        "comment": 0,
+        "blank": 8
+      },
+      "complexity": 0.48
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 478,
+      "language": "YAML",
+      "loc": {
+        "code": 22,
+        "comment": 0,
+        "blank": 5
+      },
+      "complexity": 21.94
+    },
+    {
+      "path": "src/cli/index.ts",
+      "size": 604,
+      "language": "TypeScript",
+      "loc": {
+        "code": 16,
+        "comment": 0,
+        "blank": 6
+      },
+      "complexity": 10.32
+    },
+    {
+      "path": "src/core/badgeGenerator.ts",
+      "size": 3266,
+      "language": "TypeScript",
+      "loc": {
+        "code": 66,
+        "comment": 4,
+        "blank": 12
+      },
+      "complexity": 51.4
+    },
+    {
+      "path": "src/core/ci.ts",
+      "size": 1364,
+      "language": "TypeScript",
+      "loc": {
+        "code": 45,
+        "comment": 0,
+        "blank": 10
+      },
+      "complexity": 39.4
+    },
+    {
+      "path": "src/core/complexityProxy.ts",
+      "size": 3450,
+      "language": "TypeScript",
+      "loc": {
+        "code": 84,
+        "comment": 6,
+        "blank": 22
+      },
+      "complexity": 65.3
+    },
+    {
+      "path": "src/core/directoryStats.ts",
+      "size": 1198,
+      "language": "TypeScript",
+      "loc": {
+        "code": 30,
+        "comment": 4,
+        "blank": 7
+      },
+      "complexity": 48.18
+    },
+    {
+      "path": "src/core/discoverFiles.ts",
+      "size": 2486,
+      "language": "TypeScript",
+      "loc": {
+        "code": 61,
+        "comment": 12,
+        "blank": 12
+      },
+      "complexity": 50.46
+    },
+    {
+      "path": "src/core/gitChurn.ts",
+      "size": 1415,
+      "language": "TypeScript",
+      "loc": {
+        "code": 29,
+        "comment": 6,
+        "blank": 8
+      },
+      "complexity": 32.2
+    },
+    {
+      "path": "src/core/language.ts",
+      "size": 697,
+      "language": "TypeScript",
+      "loc": {
+        "code": 28,
+        "comment": 0,
+        "blank": 2
+      },
+      "complexity": 11.56
+    },
+    {
+      "path": "src/core/locCounter.ts",
+      "size": 2900,
+      "language": "TypeScript",
+      "loc": {
+        "code": 86,
+        "comment": 0,
+        "blank": 18
+      },
+      "complexity": 67.72
+    },
+    {
+      "path": "src/core/maintainability.ts",
+      "size": 4936,
+      "language": "TypeScript",
+      "loc": {
+        "code": 99,
+        "comment": 10,
+        "blank": 25
+      },
+      "complexity": 90.18
+    },
+    {
+      "path": "src/core/quickWins.ts",
+      "size": 1872,
+      "language": "TypeScript",
+      "loc": {
+        "code": 27,
+        "comment": 6,
+        "blank": 8
+      },
+      "complexity": 49.66
+    },
+    {
+      "path": "src/core/scoringChecks.ts",
+      "size": 2177,
+      "language": "TypeScript",
+      "loc": {
+        "code": 53,
+        "comment": 0,
+        "blank": 4
+      },
+      "complexity": 53.06
+    },
+    {
+      "path": "src/core/types.ts",
+      "size": 2214,
+      "language": "TypeScript",
+      "loc": {
+        "code": 98,
+        "comment": 0,
+        "blank": 4
+      },
+      "complexity": 43.96
+    },
+    {
+      "path": "src/core/valuation.ts",
+      "size": 4618,
+      "language": "TypeScript",
+      "loc": {
+        "code": 89,
+        "comment": 18,
+        "blank": 24
+      },
+      "complexity": 80.14
+    },
+    {
+      "path": "test/__snapshots__/badgeGenerator.test.ts.snap",
+      "size": 1760,
+      "language": "Other",
+      "loc": {
+        "code": 38,
+        "comment": 0,
+        "blank": 8
+      },
+      "complexity": 0
+    },
+    {
+      "path": "test/cli/badge.test.ts",
+      "size": 6808,
+      "language": "TypeScript",
+      "loc": {
+        "code": 124,
+        "comment": 9,
+        "blank": 36
+      },
+      "complexity": 0
+    },
+    {
+      "path": "src/cli/commands/badge.ts",
+      "size": 11720,
+      "language": "TypeScript",
+      "loc": {
+        "code": 195,
+        "comment": 19,
+        "blank": 30
+      },
+      "complexity": 100
+    },
+    {
+      "path": "src/cli/commands/init.ts",
+      "size": 814,
+      "language": "TypeScript",
+      "loc": {
+        "code": 29,
+        "comment": 0,
+        "blank": 2
+      },
+      "complexity": 44.08
+    },
+    {
+      "path": "src/cli/commands/scan.ts",
+      "size": 7785,
+      "language": "TypeScript",
+      "loc": {
+        "code": 154,
+        "comment": 9,
+        "blank": 34
+      },
+      "complexity": 71.76
+    },
+    {
+      "path": "src/cli/commands/version.ts",
+      "size": 640,
+      "language": "TypeScript",
+      "loc": {
+        "code": 15,
+        "comment": 0,
+        "blank": 2
+      },
+      "complexity": 32.3
+    },
+    {
+      "path": "src/cli/output/writeJson.ts",
+      "size": 366,
+      "language": "TypeScript",
+      "loc": {
+        "code": 8,
+        "comment": 0,
+        "blank": 2
+      },
+      "complexity": 11.16
+    },
+    {
+      "path": "src/cli/output/writeMarkdown.ts",
+      "size": 5648,
+      "language": "TypeScript",
+      "loc": {
+        "code": 117,
+        "comment": 6,
+        "blank": 22
+      },
+      "complexity": 68.96
+    }
+  ],
+  "totals": {
+    "files": 35,
+    "loc": {
+      "code": 1924,
+      "comment": 117,
+      "blank": 394
+    }
+  },
+  "languages": [
+    {
+      "name": "TypeScript",
+      "files": 24,
+      "loc": {
+        "code": 1568,
+        "comment": 113,
+        "blank": 310
+      },
+      "percentOfCode": 81.4968814968815
+    },
+    {
+      "name": "Markdown",
+      "files": 3,
+      "loc": {
+        "code": 148,
+        "comment": 0,
+        "blank": 63
+      },
+      "percentOfCode": 7.6923076923076925
+    },
+    {
+      "name": "Other",
+      "files": 4,
+      "loc": {
+        "code": 75,
+        "comment": 0,
+        "blank": 15
+      },
+      "percentOfCode": 3.898128898128898
+    },
+    {
+      "name": "JavaScript",
+      "files": 1,
+      "loc": {
+        "code": 60,
+        "comment": 4,
+        "blank": 1
+      },
+      "percentOfCode": 3.118503118503119
+    },
+    {
+      "name": "JSON",
+      "files": 2,
+      "loc": {
+        "code": 51,
+        "comment": 0,
+        "blank": 0
+      },
+      "percentOfCode": 2.6507276507276507
+    },
+    {
+      "name": "YAML",
+      "files": 1,
+      "loc": {
+        "code": 22,
+        "comment": 0,
+        "blank": 5
+      },
+      "percentOfCode": 1.1434511434511436
+    }
+  ],
+  "directories": [
+    {
+      "path": "src/core",
+      "files": 13,
+      "loc": {
+        "code": 795,
+        "comment": 66,
+        "blank": 156
+      }
+    },
+    {
+      "path": "src/cli/commands",
+      "files": 4,
+      "loc": {
+        "code": 393,
+        "comment": 28,
+        "blank": 68
+      }
+    },
+    {
+      "path": ".",
+      "files": 8,
+      "loc": {
+        "code": 219,
+        "comment": 0,
+        "blank": 64
+      }
+    },
+    {
+      "path": "test",
+      "files": 3,
+      "loc": {
+        "code": 168,
+        "comment": 8,
+        "blank": 19
+      }
+    },
+    {
+      "path": "src/cli/output",
+      "files": 2,
+      "loc": {
+        "code": 125,
+        "comment": 6,
+        "blank": 24
+      }
+    },
+    {
+      "path": "test/cli",
+      "files": 1,
+      "loc": {
+        "code": 124,
+        "comment": 9,
+        "blank": 36
+      }
+    },
+    {
+      "path": "test/__snapshots__",
+      "files": 1,
+      "loc": {
+        "code": 38,
+        "comment": 0,
+        "blank": 8
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE",
+      "files": 1,
+      "loc": {
+        "code": 24,
+        "comment": 0,
+        "blank": 8
+      }
+    },
+    {
+      "path": ".github/workflows",
+      "files": 1,
+      "loc": {
+        "code": 22,
+        "comment": 0,
+        "blank": 5
+      }
+    },
+    {
+      "path": "src/cli",
+      "files": 1,
+      "loc": {
+        "code": 16,
+        "comment": 0,
+        "blank": 6
+      }
+    }
+  ],
+  "hotspots": {
+    "byLoc": [
+      {
+        "path": "src/cli/commands/badge.ts",
+        "locCode": 195
+      },
+      {
+        "path": "src/cli/commands/scan.ts",
+        "locCode": 154
+      },
+      {
+        "path": "test/cli/badge.test.ts",
+        "locCode": 124
+      },
+      {
+        "path": "src/cli/output/writeMarkdown.ts",
+        "locCode": 117
+      },
+      {
+        "path": "README.md",
+        "locCode": 111
+      },
+      {
+        "path": "src/core/maintainability.ts",
+        "locCode": 99
+      },
+      {
+        "path": "src/core/types.ts",
+        "locCode": 98
+      },
+      {
+        "path": "src/core/valuation.ts",
+        "locCode": 89
+      },
+      {
+        "path": "src/core/locCounter.ts",
+        "locCode": 86
+      },
+      {
+        "path": "src/core/complexityProxy.ts",
+        "locCode": 84
+      },
+      {
+        "path": "src/core/badgeGenerator.ts",
+        "locCode": 66
+      },
+      {
+        "path": "src/core/discoverFiles.ts",
+        "locCode": 61
+      },
+      {
+        "path": "test/scan.test.js",
+        "locCode": 60
+      },
+      {
+        "path": "test/scan.test.ts",
+        "locCode": 55
+      },
+      {
+        "path": "test/badgeGenerator.test.ts",
+        "locCode": 53
+      },
+      {
+        "path": "src/core/scoringChecks.ts",
+        "locCode": 53
+      },
+      {
+        "path": "src/core/ci.ts",
+        "locCode": 45
+      },
+      {
+        "path": "test/__snapshots__/badgeGenerator.test.ts.snap",
+        "locCode": 38
+      },
+      {
+        "path": "package.json",
+        "locCode": 30
+      },
+      {
+        "path": "src/core/directoryStats.ts",
+        "locCode": 30
+      }
+    ],
+    "byComplexity": [
+      {
+        "path": "src/cli/commands/badge.ts",
+        "score": 100
+      },
+      {
+        "path": "src/core/maintainability.ts",
+        "score": 90.18
+      },
+      {
+        "path": "src/core/valuation.ts",
+        "score": 80.14
+      },
+      {
+        "path": "src/cli/commands/scan.ts",
+        "score": 71.76
+      },
+      {
+        "path": "src/cli/output/writeMarkdown.ts",
+        "score": 68.96
+      },
+      {
+        "path": "src/core/locCounter.ts",
+        "score": 67.72
+      },
+      {
+        "path": "src/core/complexityProxy.ts",
+        "score": 65.3
+      },
+      {
+        "path": "src/core/scoringChecks.ts",
+        "score": 53.06
+      },
+      {
+        "path": "src/core/badgeGenerator.ts",
+        "score": 51.4
+      },
+      {
+        "path": "src/core/discoverFiles.ts",
+        "score": 50.46
+      },
+      {
+        "path": "src/core/quickWins.ts",
+        "score": 49.66
+      },
+      {
+        "path": "src/core/directoryStats.ts",
+        "score": 48.18
+      },
+      {
+        "path": "src/cli/commands/init.ts",
+        "score": 44.08
+      },
+      {
+        "path": "src/core/types.ts",
+        "score": 43.96
+      },
+      {
+        "path": "src/core/ci.ts",
+        "score": 39.4
+      },
+      {
+        "path": "README.md",
+        "score": 39.22
+      },
+      {
+        "path": "src/cli/commands/version.ts",
+        "score": 32.3
+      },
+      {
+        "path": "src/core/gitChurn.ts",
+        "score": 32.2
+      },
+      {
+        "path": ".github/workflows/ci.yml",
+        "score": 21.94
+      },
+      {
+        "path": ".eslintrc.cjs",
+        "score": 20.28
+      }
+    ],
+    "byChurn": []
+  },
+  "maintainability": {
+    "score": 82,
+    "grade": "B",
+    "breakdown": [
+      {
+        "category": "Project Hygiene",
+        "score": 20,
+        "max": 20,
+        "notes": [
+          "README exists",
+          "LICENSE exists",
+          "CONTRIBUTING exists",
+          "Issue templates detected",
+          "CI config detected"
+        ]
+      },
+      {
+        "category": "Code Structure",
+        "score": 20,
+        "max": 25,
+        "notes": [
+          "No huge files",
+          "TypeScript detected",
+          "Linter/Formatter detected"
+        ]
+      },
+      {
+        "category": "Complexity",
+        "score": 12,
+        "max": 25,
+        "notes": [
+          "Moderate complexity",
+          "2 extreme hotspots"
+        ]
+      },
+      {
+        "category": "Testing",
+        "score": 20,
+        "max": 20,
+        "notes": [
+          "Tests directory exists",
+          "Test files detected",
+          "Test runner config detected",
+          "Coverage reports detected"
+        ]
+      },
+      {
+        "category": "Dependency Risk",
+        "score": 10,
+        "max": 10,
+        "notes": [
+          "Lockfile present",
+          "Low dependencies"
+        ]
+      }
+    ],
+    "quickWins": [
+      "Refactor highly complex file: src/cli/commands/badge.ts (Score: 100)"
+    ]
+  },
+  "valuation": {
+    "rebuildCost": 18624,
+    "riskAdjustedValue": 21511,
+    "confidence": "MEDIUM",
+    "assumptions": {
+      "rateModel": "per_loc",
+      "locRateUsd": 10,
+      "multipliers": {
+        "complexity": 0.968,
+        "tests": 1.1,
+        "docs": 1,
+        "churn": 1,
+        "deps": 1.05
+      }
+    }
+  }
+}

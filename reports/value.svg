@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="122" height="28" viewBox="0 0 122 28">
+  <defs>
+    <style>
+      .text { font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; }
+      .label { font-weight: 600; fill: #fff; }
+      .value { font-weight: 700; fill: #fff; }
+    </style>
+  </defs>
+  <g shape-rendering="crispEdges">
+    <!-- Background -->
+    <path fill="#2C2C2C" d="M0 0h60v28H0z"/>
+    <path fill="#14b8a6" d="M60 0h62v28H60z"/>
+    
+    <!-- Rounded corners mask overlay (hack for crisp edges + rounding) -->
+    <!-- Actually better to maintain paths with arcs if we want true rounding, but masking is easier for split colors -->
+    <!-- Simpler approach: Rect with mask? Or just overlay corners? -->
+    <!-- Let's use a clip path or mask for the whole group to ensure rounded corners -->
+  </g>
+  
+  <!-- Re-drawing efficient rects with clean rounding -->
+  <mask id="m">
+    <rect width="122" height="28" rx="6" fill="#fff"/>
+  </mask>
+
+  <g mask="url(#m)">
+    <rect x="0" y="0" width="60" height="28" fill="#333"/>
+    <rect x="60" y="0" width="62" height="28" fill="#14b8a6"/>
+    
+    <!-- Divider Line -->
+    <rect x="60" y="4" width="1" height="20" fill="#fff" fill-opacity="0.1"/>
+    
+    <!-- Top Highlight (Premium feel) -->
+    <rect x="0" y="0" width="122" height="1" fill="#fff" fill-opacity="0.1"/>
+  </g>
+
+  <!-- Text -->
+  <g text-anchor="middle" dominant-baseline="middle" class="text">
+    <text x="30" y="15" class="label" font-size="11">Value</text>
+    <text x="91" y="15" class="value" font-size="11">$18.4K</text>
+  </g>
+</svg>
